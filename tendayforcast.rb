@@ -8,12 +8,12 @@ class TenDayForcast
     end
 
     def day_one
-      @response["forecast10day"]["forecast"]["title"]["fcttext"]
+      @response["forecast"]["txt_forecast"]["forecastday"][0]["title"]
+      @response["forecast"]["txt_forecast"]["forecastday"][0]["fcttext"]
     end
 
-    def day_two
-      @response["forecast10day"]["forecast"]["title"]["fcttext"]
-    end
+    
+
 
     private def get_response
       # key = ENV['WUNDERGROUND_KEY']
@@ -26,4 +26,3 @@ end
 puts "Enter you're Zip Code!"
 t = TenDayForcast.new(gets.chomp)
 puts t.day_one
-puts t.day_two

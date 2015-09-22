@@ -38,5 +38,15 @@ class WeatherReportTest < Minitest::Test
     refute_equal "10.0", condition.current_wind_gust
   end
 
-  def test_new
+  def test_new_sunrise
+    sun = Sun.new(33401)
+    assert_equal "sunrise", sun.sunrise_hour
+    refute_equal "sundown", sun.sunrise_hour
+  end
+
+  def test_new_sundown
+    sun = Sun.new(33401)
+    assert_equal "sundown", sun.sunset_hour
+    refute_equal "sunrise", sun.sunrise_hour
+  end
 end
