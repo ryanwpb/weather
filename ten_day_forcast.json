@@ -1,0 +1,959 @@
+{
+  "response": {
+  "version":"0.1",
+  "termsofService":"http://www.wunderground.com/weather/api/d/terms.html",
+  "features": {
+  "forecast10day": 1
+  }
+	}
+		,
+	"forecast":{
+		"txt_forecast": {
+		"date":"4:54 PM EDT",
+		"forecastday": [
+		{
+		"period":0,
+		"icon":"partlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/partlycloudy.gif",
+		"title":"Monday",
+		"fcttext":"Partly cloudy. Lows overnight in the mid 70s.",
+		"fcttext_metric":"Partly cloudy. Low 23C.",
+		"pop":"20"
+		}
+		,
+		{
+		"period":1,
+		"icon":"nt_partlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_partlycloudy.gif",
+		"title":"Monday Night",
+		"fcttext":"A few clouds. A stray shower or thunderstorm is possible. Low 74F. Winds NE at 10 to 15 mph.",
+		"fcttext_metric":"A few clouds. A stray shower or thunderstorm is possible. Low 23C. Winds NE at 10 to 15 km/h.",
+		"pop":"20"
+		}
+		,
+		{
+		"period":2,
+		"icon":"partlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/partlycloudy.gif",
+		"title":"Tuesday",
+		"fcttext":"Sunshine and clouds mixed. A stray shower or thunderstorm is possible. High 88F. Winds NNE at 10 to 15 mph.",
+		"fcttext_metric":"Partly cloudy skies. A stray shower or thunderstorm is possible. High 31C. Winds NNE at 15 to 25 km/h.",
+		"pop":"20"
+		}
+		,
+		{
+		"period":3,
+		"icon":"nt_mostlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_mostlycloudy.gif",
+		"title":"Tuesday Night",
+		"fcttext":"Mostly cloudy. A stray shower or thunderstorm is possible. Low 73F. Winds NNE at 5 to 10 mph.",
+		"fcttext_metric":"Mostly cloudy. A stray shower or thunderstorm is possible. Low 23C. Winds NNE at 10 to 15 km/h.",
+		"pop":"20"
+		}
+		,
+		{
+		"period":4,
+		"icon":"partlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/partlycloudy.gif",
+		"title":"Wednesday",
+		"fcttext":"Sunshine and clouds mixed. A stray shower or thunderstorm is possible. High 87F. Winds NE at 5 to 10 mph.",
+		"fcttext_metric":"Sunshine and clouds mixed. A stray shower or thunderstorm is possible. High around 30C. Winds NE at 10 to 15 km/h.",
+		"pop":"20"
+		}
+		,
+		{
+		"period":5,
+		"icon":"nt_tstorms",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_tstorms.gif",
+		"title":"Wednesday Night",
+		"fcttext":"Partly cloudy skies early. Scattered thunderstorms developing later at night. Low 74F. Winds ENE at 5 to 10 mph. Chance of rain 50%.",
+		"fcttext_metric":"Partly cloudy with late night showers or thunderstorms. Low 23C. Winds ENE at 10 to 15 km/h. Chance of rain 60%.",
+		"pop":"50"
+		}
+		,
+		{
+		"period":6,
+		"icon":"tstorms",
+		"icon_url":"http://icons.wxug.com/i/c/k/tstorms.gif",
+		"title":"Thursday",
+		"fcttext":"Isolated thunderstorms in the morning becoming more widespread in the afternoon. High 87F. Winds ENE at 10 to 15 mph. Chance of rain 80%.",
+		"fcttext_metric":"Scattered thunderstorms in the morning, then mainly cloudy during the afternoon with thunderstorms likely. High around 30C. Winds ENE at 15 to 25 km/h. Chance of rain 80%.",
+		"pop":"80"
+		}
+		,
+		{
+		"period":7,
+		"icon":"nt_tstorms",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_tstorms.gif",
+		"title":"Thursday Night",
+		"fcttext":"Thunderstorms likely. Low 73F. Winds ESE at 5 to 10 mph. Chance of rain 80%.",
+		"fcttext_metric":"Thunderstorms. Low 23C. Winds E at 10 to 15 km/h. Chance of rain 80%.",
+		"pop":"80"
+		}
+		,
+		{
+		"period":8,
+		"icon":"tstorms",
+		"icon_url":"http://icons.wxug.com/i/c/k/tstorms.gif",
+		"title":"Friday",
+		"fcttext":"Thunderstorms likely. High 87F. Winds ESE at 10 to 15 mph. Chance of rain 80%.",
+		"fcttext_metric":"Thunderstorms likely in the morning. Then the chance of scattered thunderstorms in the afternoon. High near 30C. Winds ESE at 15 to 25 km/h. Chance of rain 80%.",
+		"pop":"80"
+		}
+		,
+		{
+		"period":9,
+		"icon":"nt_tstorms",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_tstorms.gif",
+		"title":"Friday Night",
+		"fcttext":"Thunderstorms likely in the evening. Then the chance of scattered thunderstorms later on. Low 74F. Winds E at 5 to 10 mph. Chance of rain 80%.",
+		"fcttext_metric":"Thunderstorms likely in the evening. Then the chance of scattered thunderstorms later on. Low 23C. Winds E at 10 to 15 km/h. Chance of rain 80%.",
+		"pop":"80"
+		}
+		,
+		{
+		"period":10,
+		"icon":"chancetstorms",
+		"icon_url":"http://icons.wxug.com/i/c/k/chancetstorms.gif",
+		"title":"Saturday",
+		"fcttext":"Mixed clouds and sun with scattered thunderstorms. High 87F. Winds ENE at 10 to 15 mph. Chance of rain 50%.",
+		"fcttext_metric":"Scattered thunderstorms. High around 30C. Winds ENE at 10 to 15 km/h. Chance of rain 50%.",
+		"pop":"50"
+		}
+		,
+		{
+		"period":11,
+		"icon":"nt_chancetstorms",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_chancetstorms.gif",
+		"title":"Saturday Night",
+		"fcttext":"Partly to mostly cloudy skies with scattered thunderstorms mainly before midnight. Low 74F. Winds NE at 5 to 10 mph. Chance of rain 50%.",
+		"fcttext_metric":"Partly to mostly cloudy skies with scattered thunderstorms mainly before midnight. Low 23C. Winds NE at 10 to 15 km/h. Chance of rain 50%.",
+		"pop":"50"
+		}
+		,
+		{
+		"period":12,
+		"icon":"chancetstorms",
+		"icon_url":"http://icons.wxug.com/i/c/k/chancetstorms.gif",
+		"title":"Sunday",
+		"fcttext":"Mixed clouds and sun with scattered thunderstorms. High 88F. Winds ENE at 10 to 15 mph. Chance of rain 50%.",
+		"fcttext_metric":"Scattered showers and thunderstorms. High 31C. Winds ENE at 15 to 25 km/h. Chance of rain 50%.",
+		"pop":"50"
+		}
+		,
+		{
+		"period":13,
+		"icon":"nt_chancetstorms",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_chancetstorms.gif",
+		"title":"Sunday Night",
+		"fcttext":"Variable clouds with scattered thunderstorms. Low 74F. Winds ENE at 5 to 10 mph. Chance of rain 50%.",
+		"fcttext_metric":"Variably cloudy with scattered thunderstorms. Low 23C. Winds ENE at 10 to 15 km/h. Chance of rain 50%.",
+		"pop":"50"
+		}
+		,
+		{
+		"period":14,
+		"icon":"chancetstorms",
+		"icon_url":"http://icons.wxug.com/i/c/k/chancetstorms.gif",
+		"title":"Monday",
+		"fcttext":"Partly cloudy with afternoon showers or thunderstorms. High 87F. Winds ENE at 10 to 15 mph. Chance of rain 50%.",
+		"fcttext_metric":"Partly cloudy early. Scattered thunderstorms developing in the afternoon. High 31C. Winds ENE at 15 to 25 km/h. Chance of rain 50%.",
+		"pop":"50"
+		}
+		,
+		{
+		"period":15,
+		"icon":"nt_chancetstorms",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_chancetstorms.gif",
+		"title":"Monday Night",
+		"fcttext":"Scattered thunderstorms. Low 74F. Winds ENE at 5 to 10 mph. Chance of rain 50%.",
+		"fcttext_metric":"Scattered thunderstorms. Low 24C. Winds ENE at 10 to 15 km/h. Chance of rain 50%.",
+		"pop":"50"
+		}
+		,
+		{
+		"period":16,
+		"icon":"chancetstorms",
+		"icon_url":"http://icons.wxug.com/i/c/k/chancetstorms.gif",
+		"title":"Tuesday",
+		"fcttext":"Scattered thunderstorms. High 86F. Winds E at 10 to 20 mph. Chance of rain 50%.",
+		"fcttext_metric":"Mixed clouds and sun with scattered thunderstorms. High around 30C. Winds E at 15 to 30 km/h. Chance of rain 50%.",
+		"pop":"50"
+		}
+		,
+		{
+		"period":17,
+		"icon":"nt_chancetstorms",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_chancetstorms.gif",
+		"title":"Tuesday Night",
+		"fcttext":"Scattered showers and thunderstorms. Low near 75F. Winds E at 10 to 15 mph. Chance of rain 50%.",
+		"fcttext_metric":"Scattered thunderstorms. Low 24C. Winds E at 15 to 25 km/h. Chance of rain 50%.",
+		"pop":"50"
+		}
+		,
+		{
+		"period":18,
+		"icon":"chancetstorms",
+		"icon_url":"http://icons.wxug.com/i/c/k/chancetstorms.gif",
+		"title":"Wednesday",
+		"fcttext":"Scattered thunderstorms. High 86F. Winds ESE at 10 to 20 mph. Chance of rain 50%.",
+		"fcttext_metric":"Scattered thunderstorms. High around 30C. Winds ESE at 15 to 30 km/h. Chance of rain 50%.",
+		"pop":"50"
+		}
+		,
+		{
+		"period":19,
+		"icon":"nt_chancetstorms",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_chancetstorms.gif",
+		"title":"Wednesday Night",
+		"fcttext":"Scattered showers and thunderstorms. Low 74F. Winds SE at 10 to 15 mph. Chance of rain 50%.",
+		"fcttext_metric":"Scattered thunderstorms. Low 24C. Winds SE at 15 to 25 km/h. Chance of rain 50%.",
+		"pop":"50"
+		}
+		]
+		},
+		"simpleforecast": {
+		"forecastday": [
+		{"date":{
+	"epoch":"1442876400",
+	"pretty":"7:00 PM EDT on September 21, 2015",
+	"day":21,
+	"month":9,
+	"year":2015,
+	"yday":263,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"1",
+	"monthname":"September",
+	"monthname_short":"Sep",
+	"weekday_short":"Mon",
+	"weekday":"Monday",
+	"ampm":"PM",
+	"tz_short":"EDT",
+	"tz_long":"America/New_York"
+},
+		"period":1,
+		"high": {
+		"fahrenheit":"88",
+		"celsius":"31"
+		},
+		"low": {
+		"fahrenheit":"74",
+		"celsius":"23"
+		},
+		"conditions":"Partly Cloudy",
+		"icon":"partlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/partlycloudy.gif",
+		"skyicon":"",
+		"pop":20,
+		"qpf_allday": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_day": {
+		"in": null,
+		"mm": null
+		},
+		"qpf_night": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": null,
+		"cm": null
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 12,
+		"kph": 19,
+		"dir": "",
+		"degrees": 0
+		},
+		"avewind": {
+		"mph": 2,
+		"kph": 2,
+		"dir": "NE",
+		"degrees": 46
+		},
+		"avehumidity": 81,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		,
+		{"date":{
+	"epoch":"1442962800",
+	"pretty":"7:00 PM EDT on September 22, 2015",
+	"day":22,
+	"month":9,
+	"year":2015,
+	"yday":264,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"1",
+	"monthname":"September",
+	"monthname_short":"Sep",
+	"weekday_short":"Tue",
+	"weekday":"Tuesday",
+	"ampm":"PM",
+	"tz_short":"EDT",
+	"tz_long":"America/New_York"
+},
+		"period":2,
+		"high": {
+		"fahrenheit":"88",
+		"celsius":"31"
+		},
+		"low": {
+		"fahrenheit":"73",
+		"celsius":"23"
+		},
+		"conditions":"Partly Cloudy",
+		"icon":"partlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/partlycloudy.gif",
+		"skyicon":"",
+		"pop":20,
+		"qpf_allday": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_day": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_night": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 15,
+		"kph": 24,
+		"dir": "NNE",
+		"degrees": 26
+		},
+		"avewind": {
+		"mph": 11,
+		"kph": 18,
+		"dir": "NNE",
+		"degrees": 26
+		},
+		"avehumidity": 69,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		,
+		{"date":{
+	"epoch":"1443049200",
+	"pretty":"7:00 PM EDT on September 23, 2015",
+	"day":23,
+	"month":9,
+	"year":2015,
+	"yday":265,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"1",
+	"monthname":"September",
+	"monthname_short":"Sep",
+	"weekday_short":"Wed",
+	"weekday":"Wednesday",
+	"ampm":"PM",
+	"tz_short":"EDT",
+	"tz_long":"America/New_York"
+},
+		"period":3,
+		"high": {
+		"fahrenheit":"87",
+		"celsius":"31"
+		},
+		"low": {
+		"fahrenheit":"74",
+		"celsius":"23"
+		},
+		"conditions":"Partly Cloudy",
+		"icon":"partlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/partlycloudy.gif",
+		"skyicon":"",
+		"pop":20,
+		"qpf_allday": {
+		"in": 0.07,
+		"mm": 2
+		},
+		"qpf_day": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_night": {
+		"in": 0.07,
+		"mm": 2
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 10,
+		"kph": 16,
+		"dir": "NE",
+		"degrees": 34
+		},
+		"avewind": {
+		"mph": 9,
+		"kph": 14,
+		"dir": "NE",
+		"degrees": 34
+		},
+		"avehumidity": 71,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		,
+		{"date":{
+	"epoch":"1443135600",
+	"pretty":"7:00 PM EDT on September 24, 2015",
+	"day":24,
+	"month":9,
+	"year":2015,
+	"yday":266,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"1",
+	"monthname":"September",
+	"monthname_short":"Sep",
+	"weekday_short":"Thu",
+	"weekday":"Thursday",
+	"ampm":"PM",
+	"tz_short":"EDT",
+	"tz_long":"America/New_York"
+},
+		"period":4,
+		"high": {
+		"fahrenheit":"87",
+		"celsius":"31"
+		},
+		"low": {
+		"fahrenheit":"73",
+		"celsius":"23"
+		},
+		"conditions":"Thunderstorm",
+		"icon":"tstorms",
+		"icon_url":"http://icons.wxug.com/i/c/k/tstorms.gif",
+		"skyicon":"",
+		"pop":80,
+		"qpf_allday": {
+		"in": 0.30,
+		"mm": 8
+		},
+		"qpf_day": {
+		"in": 0.11,
+		"mm": 3
+		},
+		"qpf_night": {
+		"in": 0.20,
+		"mm": 5
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 15,
+		"kph": 24,
+		"dir": "ENE",
+		"degrees": 70
+		},
+		"avewind": {
+		"mph": 11,
+		"kph": 18,
+		"dir": "ENE",
+		"degrees": 70
+		},
+		"avehumidity": 74,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		,
+		{"date":{
+	"epoch":"1443222000",
+	"pretty":"7:00 PM EDT on September 25, 2015",
+	"day":25,
+	"month":9,
+	"year":2015,
+	"yday":267,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"1",
+	"monthname":"September",
+	"monthname_short":"Sep",
+	"weekday_short":"Fri",
+	"weekday":"Friday",
+	"ampm":"PM",
+	"tz_short":"EDT",
+	"tz_long":"America/New_York"
+},
+		"period":5,
+		"high": {
+		"fahrenheit":"87",
+		"celsius":"31"
+		},
+		"low": {
+		"fahrenheit":"74",
+		"celsius":"23"
+		},
+		"conditions":"Thunderstorm",
+		"icon":"tstorms",
+		"icon_url":"http://icons.wxug.com/i/c/k/tstorms.gif",
+		"skyicon":"",
+		"pop":80,
+		"qpf_allday": {
+		"in": 0.32,
+		"mm": 8
+		},
+		"qpf_day": {
+		"in": 0.21,
+		"mm": 5
+		},
+		"qpf_night": {
+		"in": 0.10,
+		"mm": 3
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 15,
+		"kph": 24,
+		"dir": "ESE",
+		"degrees": 111
+		},
+		"avewind": {
+		"mph": 10,
+		"kph": 16,
+		"dir": "ESE",
+		"degrees": 111
+		},
+		"avehumidity": 74,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		,
+		{"date":{
+	"epoch":"1443308400",
+	"pretty":"7:00 PM EDT on September 26, 2015",
+	"day":26,
+	"month":9,
+	"year":2015,
+	"yday":268,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"1",
+	"monthname":"September",
+	"monthname_short":"Sep",
+	"weekday_short":"Sat",
+	"weekday":"Saturday",
+	"ampm":"PM",
+	"tz_short":"EDT",
+	"tz_long":"America/New_York"
+},
+		"period":6,
+		"high": {
+		"fahrenheit":"87",
+		"celsius":"31"
+		},
+		"low": {
+		"fahrenheit":"74",
+		"celsius":"23"
+		},
+		"conditions":"Chance of a Thunderstorm",
+		"icon":"chancetstorms",
+		"icon_url":"http://icons.wxug.com/i/c/k/chancetstorms.gif",
+		"skyicon":"",
+		"pop":50,
+		"qpf_allday": {
+		"in": 0.16,
+		"mm": 4
+		},
+		"qpf_day": {
+		"in": 0.11,
+		"mm": 3
+		},
+		"qpf_night": {
+		"in": 0.05,
+		"mm": 1
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 15,
+		"kph": 24,
+		"dir": "ENE",
+		"degrees": 76
+		},
+		"avewind": {
+		"mph": 10,
+		"kph": 16,
+		"dir": "ENE",
+		"degrees": 76
+		},
+		"avehumidity": 74,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		,
+		{"date":{
+	"epoch":"1443394800",
+	"pretty":"7:00 PM EDT on September 27, 2015",
+	"day":27,
+	"month":9,
+	"year":2015,
+	"yday":269,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"1",
+	"monthname":"September",
+	"monthname_short":"Sep",
+	"weekday_short":"Sun",
+	"weekday":"Sunday",
+	"ampm":"PM",
+	"tz_short":"EDT",
+	"tz_long":"America/New_York"
+},
+		"period":7,
+		"high": {
+		"fahrenheit":"88",
+		"celsius":"31"
+		},
+		"low": {
+		"fahrenheit":"74",
+		"celsius":"23"
+		},
+		"conditions":"Chance of a Thunderstorm",
+		"icon":"chancetstorms",
+		"icon_url":"http://icons.wxug.com/i/c/k/chancetstorms.gif",
+		"skyicon":"",
+		"pop":50,
+		"qpf_allday": {
+		"in": 0.11,
+		"mm": 3
+		},
+		"qpf_day": {
+		"in": 0.07,
+		"mm": 2
+		},
+		"qpf_night": {
+		"in": 0.04,
+		"mm": 1
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 15,
+		"kph": 24,
+		"dir": "ENE",
+		"degrees": 71
+		},
+		"avewind": {
+		"mph": 10,
+		"kph": 16,
+		"dir": "ENE",
+		"degrees": 71
+		},
+		"avehumidity": 75,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		,
+		{"date":{
+	"epoch":"1443481200",
+	"pretty":"7:00 PM EDT on September 28, 2015",
+	"day":28,
+	"month":9,
+	"year":2015,
+	"yday":270,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"1",
+	"monthname":"September",
+	"monthname_short":"Sep",
+	"weekday_short":"Mon",
+	"weekday":"Monday",
+	"ampm":"PM",
+	"tz_short":"EDT",
+	"tz_long":"America/New_York"
+},
+		"period":8,
+		"high": {
+		"fahrenheit":"87",
+		"celsius":"31"
+		},
+		"low": {
+		"fahrenheit":"74",
+		"celsius":"23"
+		},
+		"conditions":"Chance of a Thunderstorm",
+		"icon":"chancetstorms",
+		"icon_url":"http://icons.wxug.com/i/c/k/chancetstorms.gif",
+		"skyicon":"",
+		"pop":50,
+		"qpf_allday": {
+		"in": 0.12,
+		"mm": 3
+		},
+		"qpf_day": {
+		"in": 0.04,
+		"mm": 1
+		},
+		"qpf_night": {
+		"in": 0.08,
+		"mm": 2
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 15,
+		"kph": 24,
+		"dir": "ENE",
+		"degrees": 75
+		},
+		"avewind": {
+		"mph": 12,
+		"kph": 19,
+		"dir": "ENE",
+		"degrees": 75
+		},
+		"avehumidity": 76,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		,
+		{"date":{
+	"epoch":"1443567600",
+	"pretty":"7:00 PM EDT on September 29, 2015",
+	"day":29,
+	"month":9,
+	"year":2015,
+	"yday":271,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"1",
+	"monthname":"September",
+	"monthname_short":"Sep",
+	"weekday_short":"Tue",
+	"weekday":"Tuesday",
+	"ampm":"PM",
+	"tz_short":"EDT",
+	"tz_long":"America/New_York"
+},
+		"period":9,
+		"high": {
+		"fahrenheit":"86",
+		"celsius":"30"
+		},
+		"low": {
+		"fahrenheit":"75",
+		"celsius":"24"
+		},
+		"conditions":"Chance of a Thunderstorm",
+		"icon":"chancetstorms",
+		"icon_url":"http://icons.wxug.com/i/c/k/chancetstorms.gif",
+		"skyicon":"",
+		"pop":50,
+		"qpf_allday": {
+		"in": 0.28,
+		"mm": 7
+		},
+		"qpf_day": {
+		"in": 0.14,
+		"mm": 4
+		},
+		"qpf_night": {
+		"in": 0.14,
+		"mm": 4
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 20,
+		"kph": 32,
+		"dir": "E",
+		"degrees": 100
+		},
+		"avewind": {
+		"mph": 14,
+		"kph": 23,
+		"dir": "E",
+		"degrees": 100
+		},
+		"avehumidity": 77,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		,
+		{"date":{
+	"epoch":"1443654000",
+	"pretty":"7:00 PM EDT on September 30, 2015",
+	"day":30,
+	"month":9,
+	"year":2015,
+	"yday":272,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"1",
+	"monthname":"September",
+	"monthname_short":"Sep",
+	"weekday_short":"Wed",
+	"weekday":"Wednesday",
+	"ampm":"PM",
+	"tz_short":"EDT",
+	"tz_long":"America/New_York"
+},
+		"period":10,
+		"high": {
+		"fahrenheit":"86",
+		"celsius":"30"
+		},
+		"low": {
+		"fahrenheit":"74",
+		"celsius":"23"
+		},
+		"conditions":"Chance of a Thunderstorm",
+		"icon":"chancetstorms",
+		"icon_url":"http://icons.wxug.com/i/c/k/chancetstorms.gif",
+		"skyicon":"",
+		"pop":50,
+		"qpf_allday": {
+		"in": 0.30,
+		"mm": 8
+		},
+		"qpf_day": {
+		"in": 0.16,
+		"mm": 4
+		},
+		"qpf_night": {
+		"in": 0.14,
+		"mm": 4
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 20,
+		"kph": 32,
+		"dir": "ESE",
+		"degrees": 112
+		},
+		"avewind": {
+		"mph": 15,
+		"kph": 24,
+		"dir": "ESE",
+		"degrees": 112
+		},
+		"avehumidity": 76,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		]
+		}
+	}
+}
